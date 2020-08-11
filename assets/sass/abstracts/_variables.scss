@@ -1,0 +1,59 @@
+// -----------------------------------------------------------------------------
+// VARIABLES
+// -----------------------------------------------------------------------------
+
+
+//colores
+$color-dark: #110f0f !default;
+$color-txt: #0b0a0a!default;
+$color-pink: #d9534f!default;
+$color-light-grey:	#f7f7f7 !default;
+$color-mid-grey: #b4abab !default;
+$color-grey:#908888 !default;
+$color-dark-grey:#404040 !default;
+$color-white:#fff !default;
+$color-turq:	#89ecda!default;
+
+
+
+
+//max contenido
+$max-contenido: 1200px !default;
+
+// breakpoints para Media Query
+$breakpoints: (
+  'bp-sm': (min-width: 576px),
+  'bp-md': (min-width: 768px),
+  'bp-lg': (min-width: 992px),
+  'bp-xl': (min-width: 1200px),
+);
+
+//Font Family
+//font variables
+$jost: 'Jost', sans-serif;
+$raleway: 'Raleway', sans-serif; 
+$ptsansnarr:  'PT Sans Narrow', sans-serif;
+// Tipography
+// Font Weight
+$regular: 400;
+$light-fnt:300;
+$bold:700;
+
+// Font Sizes
+
+
+$xx-large: 40px;
+$x-large: 24px;
+$large: 18px;
+$medium: 16px;
+$small: 14px;
+
+$xx-large-em: 4.375em;
+$x-large-em: 1.875em;
+$large-em: 1.125em;
+$medium-em: 1em;
+$small-em: .75em;
+
+
+
+

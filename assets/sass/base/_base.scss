@@ -1,0 +1,33 @@
+// -----------------------------------------------------------------------------
+//Estilos básicos
+// -----------------------------------------------------------------------------
+//normalizado de cajas
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+//links
+a {
+  
+  text-decoration: none;
+
+  /*  @include on-event {
+    color: $text-color;
+    text-decoration: underline;
+  } */
+  &:hover {
+    text-decoration: none;
+  }
+}
+body {
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+}
+img{
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.item__video p {
+    color: $color-dark-grey;
+    font-size: $small;
+}
+.main__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1.5rem 0 1rem 0;
+    @include respond-to("bp-md") {
+        & {
+            -webkit-box-pack: start;
+            -ms-flex-pack: start;
+            justify-content: flex-start;
+        }
+    }
+}
+.main__title h3 {
+    font-size: $x-large;
+    font-weight: $regular;
+}
